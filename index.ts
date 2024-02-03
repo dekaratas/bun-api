@@ -13,6 +13,9 @@ app.use(userController as any);
 app.use(recipeController as any);
 app.use(commentController as any);
 
+// bun --watch index.ts
+// gets webserver started
+
 app.listen(4040, () => {
   console.log("Server running on port 4040");
 });
